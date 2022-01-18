@@ -1,0 +1,354 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #1ad914;
+    background-image: linear-gradient(242deg, #1ad914 0%, #6284FF 50%, #ff0000 100%);
+}
+
+hr {
+    background-color: rgba(20, 220, 143, 0.952);
+}
+
+header {
+    background-color: #4158D0;
+    background-image: linear-gradient(360deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    transition: all 0.5s;
+    color: white;
+    height: 10vh;
+    padding: 15px;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+header ul {
+    margin: 0%;
+    padding: 0%;
+}
+
+li {
+    list-style: none;
+    list-style-position: inside;
+    display: inline;
+    padding: 0px;
+    margin: 35px;
+    font-size: 25px;
+}
+
+.ds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ds h2 {
+    font-style: bold;
+    color: blue;
+}
+
+h1 {
+    color: rgb(14, 240, 44);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    font-size: 30px;
+}
+
+.im img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    z-index: 1000;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #1D2B64 0%, #F8CDDA 51%, #1D2B64 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(54, 236, 18);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.imgcontainer {
+    height: 70vh;
+    width: auto;
+    border: solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.ggr {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( 135deg, #69FF97 10%, #00E4FF 100%);
+}
+
+.social .grad {
+    background-image: linear-gradient(to right, #16A085 0%, #F4D03F 51%, #16A085 100%)
+}
+
+.grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.hh {
+    display: flex;
+    justify-content: center;
+}
+
+.grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fmap {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center
+}
+
+.flog {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+
+.texf {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.produ {
+    background-image: linear-gradient( 14.6deg, rgba(201, 37, 107, 1) 15.4%, rgba(116, 16, 124, 1) 74.7%);
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.produ img {
+    height: 350px;
+    width: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .produ img {
+        height: 156px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    li {
+        list-style: none;
+        list-style-position: inside;
+        display: inline;
+        padding: 0px;
+        margin: 3px;
+        font-size: 25px;
+    }
+}
+
+
+/*thisis all for about page*/
+
+.jjabout {
+    position: relative;
+    top: 80px;
+    left: 0px;
+    height:fit-content;
+    width: auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.jjabout
+img {
+   position: relative;
+   right: 22px;
+    display: flex;
+    height:300px;
+}
+.jjabout
+h2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    position: relative;
+    left: 20px;
+
+}
+.herop{
+    margin: 100px;
+    padding: 20px;
+}
+@media screen and (max-width:1060px){
+    .jjabout
+h2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    position: relative;
+    left: 20px;
+
+    
+}
+}
+@media screen and (max-width:860px) {
+    .jjabout
+img {
+   position: relative;
+   right: 22px;
+    display: flex;
+    height:200px;
+}
+.jjabout
+h2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.herop{
+    margin: 25px;
+    padding: 0px;
+}
+.jjabout {
+    position: relative;
+    top: 80px;
+    left: -21px;
+    height:fit-content;
+    width: auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
+/*all for the product page*/
+.probox{
+    height:fit-content;
+    background-image: linear-gradient( 88.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
+}
+.hedsuil
+.bix1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.hedsuil
+.bix2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.ourprojjuiff{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imgproff{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    
+    
+}
+.imgproff
+img{
+    height: 350px;
+    width: auto;
+}
+@media screen  and (max-width:800px){
+    .imgproff
+img{
+    height: 170px;
+    width: auto;
+}
+    
+}
+
+
+
+    
+
