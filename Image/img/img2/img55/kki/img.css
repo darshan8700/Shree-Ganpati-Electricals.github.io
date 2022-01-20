@@ -214,3 +214,20 @@ h1 {
         font-size: 25px;
     }
 }
+@keyframes imgho {
+    from{
+        height: 350px;
+        width: auto;
+
+    }
+    to{
+        height: 420px;
+        width: auto;
+
+    }
+    
+}
+.produ 
+img:hover {
+    animation: imgho 1s ease-in   1;
+}
